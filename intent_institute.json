@@ -1,0 +1,129 @@
+{
+  "intents": [
+   {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! How can I help you?", "Good day! What can I do for you?"]
+    },
+    {
+      "tag": "introduction",
+      "patterns": ["Tell me about the college", "What's special about your college?", "Who are you?"],
+      "responses": ["We are Indore Institute of Science & Technology, a renowned institution for higher education. We offer a wide range of programs and have a vibrant campus community. Is there anything specific you'd like to know?"]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": ["How can I contact the college?", "What's your contact information?", "Where are you located?"],
+      "responses": ["You can reach us at [Contact Email] or [Contact Phone Number]. Our college is located at [College Address]."]
+    },
+    {
+      "tag": "programs",
+      "patterns": ["Tell me about your academic programs", "What courses do you offer?", "Can you list your majors?"],
+      "responses": ["We offer a variety of academic programs, including [List of Majors/Programs]. You can explore our website for detailed information on each program."]
+    },
+    {
+      "tag": "admissions",
+      "patterns": ["How do I apply for admission?","how to take admission?", "What are the admission requirements?", "Tell me about the application process."],
+      "responses": ["Our admission process is outlined on our website. You can find information on admission requirements, application deadlines, and procedures there."]
+    },
+    {
+      "tag": "events",
+      "patterns": ["Are there any upcoming events?", "Tell me about college events", "What's happening on campus?"],
+      "responses": ["We host a variety of events throughout the year. You can check our events calendar on our website for details about upcoming events."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["I need help", "Can you assist me?", "I'm confused"],
+      "responses": ["Of course, I'm here to help. Please describe the issue you're facing, and I'll do my best to assist you."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help","OK","ok"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+  },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "See you later", "Farewell", "Bye","Exit"],
+      "responses": ["Goodbye! If you have more questions in the future, don't hesitate to return."]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["I'm sorry, I couldn't understand that. Could you please rephrase your question or provide more information?"]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": ["Tell me about scholarships", "What scholarships are available?", "How can I apply for scholarships?"],
+      "responses": ["We offer a range of scholarships to support students in their academic journey. You can find detailed information on our scholarship programs on our website."]
+    },
+    {
+      "tag": "tuition",
+      "patterns": ["What is the tuition fee?", "How much does it cost to attend?", "Tell me about tuition and fees."],
+      "responses": ["Tuition fees vary by program and can be found on our website. You can also explore options for financial aid and scholarships."]
+    },
+    {
+      "tag": "campus_life",
+      "patterns": ["What is campus life like?", "Tell me about student activities", "What clubs and organizations are there?"],
+      "responses": ["Our campus is vibrant, with a variety of student clubs, organizations, and activities. You can learn more about campus life on our website."]
+    },
+    {
+      "tag": "alumni",
+      "patterns": ["Tell me about notable alumni", "Do you have any famous graduates?", "What have your alumni achieved?"],
+      "responses": ["Our alumni have achieved great success in various fields. You can explore stories of our notable alumni on our website."]
+    },
+    {
+      "tag": "faculty",
+      "patterns": ["Tell me about your faculty", "Who are your professors?", "Can I learn about the faculty members?"],
+      "responses": ["We have a dedicated and experienced faculty. Information about our professors can be found on our website."]
+    },
+    {
+      "tag": "academic_support",
+      "patterns": ["How can I get academic support?", "Is tutoring available?", "Tell me about student services."],
+      "responses": ["We offer a range of academic support services, including tutoring and student services. You can find details on our website."]
+    },
+    {
+      "tag": "online_learning",
+      "patterns": ["Do you offer online courses?", "Tell me about online learning", "Can I study remotely?"],
+      "responses": ["Yes, we offer online courses for remote learning. You can explore our online learning options on our website."]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["Tell me about sports and athletics", "Do you have a sports program?", "What sports are available?"],
+      "responses": ["We have a vibrant sports program with a variety of sports and athletics. You can find more information on our sports teams and facilities on our website."]
+    },
+    {
+      "tag": "research",
+      "patterns": ["Tell me about research opportunities", "Do you have research programs?", "Can students get involved in research?"],
+      "responses": ["We provide research opportunities for students. Details about research programs and how to get involved can be found on our website."]
+    },
+    {
+      "tag": "housing",
+      "patterns": ["Tell me about student housing", "Do you offer on-campus housing?", "How can I apply for dorms?"],
+      "responses": ["We offer on-campus housing options for students. Information on student housing and the application process is available on our website."]
+    },
+    {
+      "tag": "enrollment",
+      "patterns": ["How do I enroll?", "What's the enrollment process?", "Can I visit the campus for enrollment?"],
+      "responses": ["The enrollment process is outlined on our website, and you can find the steps to enroll. We also offer campus tours to help you get acquainted with our facilities."]
+    },
+    {
+      "tag": "orientation",
+      "patterns": ["Tell me about new student orientation", "Is there an orientation program?", "When does orientation start?"],
+      "responses": ["We have a comprehensive orientation program for new students. You can find information about orientation dates and activities on our website."]
+    },
+    {
+      "tag": "international_students",
+      "patterns": ["How can international students apply?", "Tell me about services for international students", "What's the admission process for international students?"],
+      "responses": ["We welcome international students and provide support throughout the admission process. You can find information tailored to international students on our website."]
+    },
+    {
+      "tag": "graduation",
+      "patterns": ["What is the graduation ceremony like?", "Tell me about commencement", "When is the next graduation?"],
+      "responses": ["Our graduation ceremony is a memorable event. Details about commencement, including dates and requirements, can be found on our website."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "See you later", "Farewell", "Bye"],
+      "responses": ["Goodbye! If you have more questions in the future, don't hesitate to return."]
+    }
+  ]
+}
